@@ -1,0 +1,48 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+:root {
+  --page-bg-color: #f5f5f7;
+  --gradient-start: #f7a2a1;
+  --gradient-end: #ffed00;
+  --avatar-border-color: #ffffff40;
+  --button-color: #5fc52e;
+  --button-color: #3eb489;
+  --field-border-color: #d5d5d7;
+  --field-radius: 4px;
+  --radius: 12px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  background-color: grey;
+  display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 800px;
+  background: white;
+  display: flex;
+  border-radius: 10px;
+}
+
+.foto{
+  width: 120px;
+  height: 120px;
+  border-radius: 100vw;
+}
+
+.levy-panel{
+  width: 300px;
+  padding: 60px;
+  background: linear-gradient(180deg, #ffeb3b, #ff8a8a);
+  border-radius: 10px 0 0 10px;
+}
+
+.pravy-panel{
+  width: 500px;
+  padding: 60px;
+}
