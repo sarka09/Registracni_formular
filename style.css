@@ -65,3 +65,49 @@ body {
   font-size: 0.85rem;
   color: #000000c0;
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form_flex{
+  display: flex;
+  gap: 20px;
+}
+
+.form_field--checkbox{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form_field label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form_field input[type="text"],
+.form_field input[type="email"],
+.form_field input[type="tel"],
+.form_field input[type="date"] {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid var(--field-border-color);
+  border-radius: var(--field-radius);
+}
+
+.form_field input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid var(--field-border-color);
+  border-radius: var(--field-radius);
+}
+
+.form_field a{
+  color: black;
+}
