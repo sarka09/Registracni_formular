@@ -25,27 +25,8 @@ body {
   background-color: var(--page-bg-color);
 }
 
-.container{
-  width: 800px;
-  background: white;
+.registration{
   display: flex;
-  border-radius: 10px;
+  width: 800px;
 }
 
-.foto{
-  width: 120px;
-  height: 120px;
-  border-radius: 100vw;
-}
-
-.levy-panel{
-  width: 300px;
-  padding: 60px;
-  background: linear-gradient(180deg, #ffeb3b, #ff8a8a);
-  border-radius: 10px 0 0 10px;
-}
-
-.pravy-panel{
-  width: 500px;
-  padding: 60px;
-}
