@@ -30,3 +30,27 @@ body {
   width: 800px;
 }
 
+.registracion_visual{
+  flex: 0 0 300px;
+  padding: 60px;
+  background: linear-gradient(to top, var(--gradient-start), var(--gradient-end));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+
+.registration_form{
+  flex: 0 0 500px;
+  padding: 60px;
+  background: white;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.registration_avatar{
+  width: 150px;
+  border: 10px solid #ffffff60;
+  border-radius: 50%;
+}
