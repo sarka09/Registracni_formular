@@ -30,7 +30,7 @@ body {
   width: 800px;
 }
 
-.registracion_visual{
+.registration_visual{
   flex: 0 0 300px;
   padding: 60px;
   background: linear-gradient(to top, var(--gradient-start), var(--gradient-end));
@@ -51,7 +51,7 @@ body {
 
 .registration_avatar{
   width: 150px;
-  border: 10px solid #ffffff60;
+  border: 10px solid var(--avatar-border-color);
   border-radius: 50%;
 }
 
@@ -60,7 +60,7 @@ body {
   margin: 30px 0 10px 0;
 }
 
-.registration_desctiption{
+.registration_description{
   margin: 10px 0 0 0;
   font-size: 0.85rem;
   color: #000000c0;
@@ -110,4 +110,15 @@ body {
 
 .form_field a{
   color: black;
+}
+
+button{
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding: 10px;
+  border: 0;
+  background: var(--button-color);
+  color: white;
+  border-radius: var(--field-radius);
 }
